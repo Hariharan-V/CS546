@@ -15,7 +15,14 @@ const questionTwo = function questionTwo(num) {
     if(num==1){
         return 1;
     }
-    return questionTwo(num-1)+questionTwo(num-2);
+    let one = 0;
+    let two = 1;
+    for(let i = 2; i<=num; i++){
+        let sum = one+two;
+        one = two;
+        two = sum;
+    }
+    return two;
 }
 
 const questionThree = function questionThree(text) {
@@ -41,7 +48,12 @@ const questionFour = function questionFour(num) {
     if(num==0){
         return 1;
     }
-    return num*questionFour(num-1);
+    let result = 1;
+    for(let x = num; x>0;x--){
+        result = result*x;
+
+    }
+    return result;
 }
 
 module.exports = {
