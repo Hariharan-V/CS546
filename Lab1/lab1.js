@@ -1,3 +1,4 @@
+//I pledge my honor that I've abided by the stevens honor system
 const questionOne = function questionOne(arr) {
     // Implement question 1 here
     let sum = 0;
