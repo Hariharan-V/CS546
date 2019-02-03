@@ -66,6 +66,9 @@ If any of those conditions fail, you will throw an error.
 	if(index===undefined){
 		throw "index argument not provided";
 	}
+	if(typeof index != "number"){
+		throw "index is not of type number"
+	}
 	if(index<0||index>=array.length){
 		throw "index out of bounds";
 
@@ -93,15 +96,15 @@ If any of those conditions fails, the function will throw.
 	if(end===undefined){
 		throw("end value undefined");
 	}
-	if(typeof end =="number"){
+	if(typeof end !="number"){
 		throw ("end value is of wrong type");
 	}
-	if(end<0){
+	if(end<=0){
 		throw("end value is invalid, has to be greater than zero");
 	}
 	let arr = [];
 
-	for(let i = 0; i<end;end++){
+	for(let i = 0; i<end;i++){
 		if(value===undefined){
 			arr[i]=i;
 		}else{

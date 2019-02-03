@@ -59,8 +59,8 @@ This function allows empty strings
 	if(num==undefined){
 		throw ("number argument missing");
 	}
-	if(num<=0){
-		throw ("number argument has to be greater than zero");
+	if(num<0){
+		throw ("number argument has to be greater than or equal to  zero");
 	}
 	let str = '';
 	while(num){
