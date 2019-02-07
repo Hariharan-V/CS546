@@ -59,6 +59,12 @@ This function allows empty strings
 	if(num==undefined){
 		throw ("number argument missing");
 	}
+	if(typeof num != "number"){
+		throw ("number argument not a number");
+	}
+	if(!Number.isInteger(num)){
+		throw ("number argument is not a integer");
+	}
 	if(num<0){
 		throw ("number argument has to be greater than or equal to  zero");
 	}

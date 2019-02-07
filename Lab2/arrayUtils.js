@@ -69,6 +69,9 @@ If any of those conditions fail, you will throw an error.
 	if(typeof index != "number"){
 		throw "index is not of type number"
 	}
+	if(!Number.isInteger(index)){
+		throw "index is not valid";
+	}
 	if(index<0||index>=array.length){
 		throw "index out of bounds";
 
@@ -98,6 +101,9 @@ If any of those conditions fails, the function will throw.
 	}
 	if(typeof end !="number"){
 		throw ("end value is of wrong type");
+	}
+	if(!Number.isInteger(end)){
+		throw "end value is not an integer";
 	}
 	if(end<=0){
 		throw("end value is invalid, has to be greater than zero");

@@ -2,8 +2,9 @@ const extend = function extend(...args){
 	if(args===undefined || args.length<2){
 		throw ("this function needs at least two arguments");
 	}
-	let non_objects = args.filter(x=>typeof x != 'object');
-	if(non_objects!=0){
+	let non_objects = args.filter(x=>(typeof x) != 'object');
+
+	if(non_objects.length!=0){
 		throw ('not all arguments are objects');
 	}
 	let obj = {};
@@ -23,7 +24,7 @@ const smush = function smush(...args){
 		throw ("this function needs at least two arguments");
 	}
 	let non_objects = args.filter(x=>typeof x != 'object');
-	if(non_objects!=0){
+	if(non_objects.length!=0){
 		throw ('not all arguments are objects');
 	}
 	let obj = {};
