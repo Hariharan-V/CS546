@@ -1,3 +1,4 @@
+//i pledge my honor that I've abided by the stevens honor system
 const head = function head(array){
 /* Returns the first element of an array.
 You must check:

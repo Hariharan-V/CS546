@@ -1,3 +1,4 @@
+//i pledge my honor that I've abided by the stevens honor system
 //arrayUtils
 const arrayUtils = require("./arrayUtils");
 	//pass for head

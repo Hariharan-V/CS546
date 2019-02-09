@@ -1,3 +1,4 @@
+//i pledge my honor that I've abided by the stevens honor system
 const extend = function extend(...args){
 	if(args===undefined || args.length<2){
 		throw ("this function needs at least two arguments");

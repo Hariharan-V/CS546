@@ -1,4 +1,4 @@
-
+//i pledge my honor that I've abided by the stevens honor system
 const capitalize = function capitalize(string){
 /*
 Given a string, capitalize the first letter and lowercase the remaining characters.
