@@ -128,6 +128,21 @@ async function main(){
 	}catch(e){
 		console.log("should  error out 129"+e);
 	}
+	try{
+		const m = await animals.rename(id,"hello");
+	}catch(e){
+		console.log("should error out 134 "+ e);
+	}
+	try{
+		const m = await animals.get(id);
+	}catch(e){
+		console.log("should error out 139"+ e);
+	}
+	try{
+		const m = await animals.remove(id);
+	}catch(e){
+		console.log("should error out 144"+ e);
+	}
 	const db = await connection();
   await db.serverConfig.close();
 
