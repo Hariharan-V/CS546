@@ -1,9 +1,9 @@
 const animal_connection = require("./data/animals");
-
+const connection = require("./data/connection");
 async function main(){
 
 	let sasha = undefined, lucy = undefined;
-	await animal_connection.delete_all();
+	
 	try{
 		 sasha = await animal_connection.create("Sasha",'Dog');
 		console.log(sasha);
@@ -52,6 +52,8 @@ async function main(){
 	catch(e){
 		console.log(e);
 	}
+	const db = await connection();
+  await db.serverConfig.close();
 	
 }
 main();

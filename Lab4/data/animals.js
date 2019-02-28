@@ -112,10 +112,7 @@ const rename = async function rename(id, newName){
 
 };
 
-const delete_all = async function delete_all(){
-	const ac = await animals();
-	await ac.deleteMany({});
-}
+
 
 module.exports = {
 	
@@ -123,8 +120,8 @@ module.exports = {
 	getAll,
 	get,
 	remove,
-	rename,
-	delete_all
+	rename
+	
 
 
 }
