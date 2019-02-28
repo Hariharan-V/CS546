@@ -14,9 +14,9 @@ const create_object = function create_object(name, animalType){
 		throw 'animal type is not a string';
 	}
 	
-	if(animalType.length==0||name.length==0){
-		throw 'emtpy string not valid';
-	}
+	// if(animalType.length==0||name.length==0){
+	// 	throw 'emtpy string not valid';
+	// }
 
 	return {
 		
