@@ -1,0 +1,14 @@
+{
+  "name": "cs546-lab6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app.js"
+  },
+  "author": "Hariharan Vijayachandran 10410841",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+      "schoolName": "Woodrow Wilson Middle School",
+      "degree": "Middle School Diploma",
+      "favoriteClass": "Home Economics",
+      "favoriteMemory": "Making cookies for a local veterans home."
+    },
+    {
+      "schoolName": "JP Stevens High School",
+      "degree": "High School Diploma",
+      "favoriteClass": "Music Technology",
+      "favoriteMemory": "Composing tunes for a local TV channel."
+    },
+    {
+      "schoolName": "Stevens Institute of Technology",
+      "degree": "Bachelor of Science",
+      "favoriteClass": "CS546",
+      "favoriteMemory": "Making this Node JS web server!"
+    }
+]
