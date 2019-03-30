@@ -1,0 +1,43 @@
+h1{
+	color: yellow;
+	
+}
+
+p {
+	color:blue;
+}
+
+body{
+	background-color: lightblue;
+}
+
+#search{
+	font-style: italic;
+}
+
+#search_label{
+	font-weight:bold;
+}
+
+h2{
+	color: green;
+}
+a{
+	color: orange;
+}
+
+#back_to_search{
+	color: purple;
+}
+ul{
+	color: white;
+}
+
+dt{
+	font-style: italic;
+	font-weight:bold;
+}
+
+dd{
+	color: red;
+}
